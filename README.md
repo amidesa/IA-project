@@ -34,6 +34,10 @@ More information about this project you can found in blog post: https://medium.c
 
 Go to Docker Hub and create a new repository to store your Docker images. You can create a public or private repository depending on your requirements. Once you have created the repository, note down the repository name as we will need it later to push our Docker images to the repository.
 
+
+![image](https://github.com/amidesa/IA-project/assets/166305750/faf57d3a-1d4f-4654-b67e-26da53560db5)
+
+
 3. Create a Dockerfile for each of the services.Permalink
 
 Dockerfile is a text file that contains a set of instructions that are used to build a Docker image. The Docker image is a lightweight, standalone, and executable package of software that includes everything needed to run an application. The Dockerfile contains instructions to build the image, such as the base image, working directory, dependencies, and commands to run the application.
@@ -43,6 +47,8 @@ Dockerfile is a text file that contains a set of instructions that are used to b
     Build the Docker image using the following command:
 
   docker build -t <DockerHubUsername>/<RepositoryName>:client .
+
+  
 
   5.Replace <DockerHubUsername> with your Docker Hub username and <RepositoryName> with the repository name of the created repository in step 2.
 
